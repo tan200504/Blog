@@ -1,0 +1,119 @@
+/* General reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #27ae60;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #1e8449;
+}
+
+/* Navigation */
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    text-align: center; /* Center inline-block cards */
+}
+
+/* Blog cards */
+.card {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.card p {
+    font-size: 0.95em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #27ae60;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #1e8449;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
